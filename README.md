@@ -4,6 +4,8 @@ A Claude skill that audits your app's code for the compliance gaps vibe-coded ap
 
 It reads your code, reports what's done / missing / N/A with file:line evidence, and ranks the top 3 fixes. It doesn't change code unless you ask.
 
+![Example audit output](audit-example.png)
+
 ## Install
 
 **Claude Code**
@@ -12,8 +14,12 @@ It reads your code, reports what's done / missing / N/A with file:line evidence,
 /plugin install app-compliance-audit@nthreads-skills
 ```
 
-**Claude.ai / desktop app**
-Download `plugins/app-compliance-audit/skills/app-compliance-audit/` as a zip, then go to Settings → Capabilities → Skills → Upload.
+**Claude desktop app / claude.ai**
+1. Download `app-compliance-audit-skill.zip` from the [latest release](https://github.com/nthreads/claude-compliance-skill/releases/latest).
+2. In Claude, open Settings → Capabilities, make sure code execution is on, then under Skills choose **Upload skill** and pick the zip.
+3. Start a chat and type `/app-compliance-audit`, or ask "are we safe to launch?"
+
+Team or Enterprise? An admin can install it once for the whole organisation.
 
 **Manual**
 Copy the `app-compliance-audit` folder into `~/.claude/skills/` (applies to all your projects) or into `.claude/skills/` (applies to one repo).
