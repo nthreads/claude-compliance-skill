@@ -1,0 +1,11 @@
+{
+  "name": "nthreads-skills",
+  "owner": { "name": "Nauman Zubair" },
+  "plugins": [
+    {
+      "name": "app-compliance-audit",
+      "source": "./plugins/app-compliance-audit",
+      "description": "Pre-launch code audit for legal/compliance gaps: age gate, consent, tracking, email, subscriptions, uploads, PII."
+    }
+  ]
+}

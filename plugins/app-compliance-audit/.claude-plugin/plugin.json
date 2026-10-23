@@ -1,0 +1,7 @@
+{
+  "name": "app-compliance-audit",
+  "version": "1.0.0",
+  "description": "Pre-launch code audit for legal/compliance gaps in web and mobile apps.",
+  "author": { "name": "Nauman Zubair" },
+  "license": "MIT"
+}
